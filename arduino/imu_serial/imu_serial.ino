@@ -24,7 +24,7 @@ void setup()
   Serial.begin(9600);
   while (!Serial);
 
-  Serial.write(Toothbrush);
+  Serial.write(MouthWash);
   
   
   if (!IMU.begin())
@@ -60,6 +60,10 @@ void loop()
     if (updateOutput)
     {
       writeFloatBytesToSerial();
+      while (Serial.available())
+      {
+        Serial.read();
+      }
       while (Serial.available() == 0)
       {
         if (IMU.accelerationAvailable())
