@@ -6,7 +6,7 @@
 
   Libraries:
 
-  You will need to install the Arduino_LSM6DS3 library via the library manager 
+  You will need to install the Arduino_LSM6DS3 library via the library manager
   before uploading.
 */
 //----------------------------------------------------------------------------
@@ -17,16 +17,15 @@ const bool DEBUG = false;
 float ax = 0, ay = 0, az = 0, gx = 0, gy = 0, gz = 0;
 bool updateOutput = false;
 
-enum ItemType{Toothbrush, HairBrush, MouthWash, Soap};
+enum ItemType {Toothbrush, HairBrush, MouthWash, Soap};
 //----------------------------------------------------------------------------
 void setup()
 {
   Serial.begin(9600);
   while (!Serial);
 
-  Serial.write(MouthWash);
-  
-  
+  Serial.write(Toothbrush);
+
   if (!IMU.begin())
   {
     Serial.println("Failed to initialize IMU!");
@@ -62,8 +61,10 @@ void loop()
       writeFloatBytesToSerial();
       while (Serial.available())
       {
-        Serial.read();
+        if (Serial.read() == 255)
+          NVIC_SystemReset();
       }
+      
       while (Serial.available() == 0)
       {
         if (IMU.accelerationAvailable())
@@ -74,10 +75,6 @@ void loop()
         {
           IMU.readGyroscope(gx, gy, gz);
         }
-      }
-      while (Serial.available())
-      {
-        Serial.read();
       }
 
       updateOutput = false;
