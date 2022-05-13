@@ -33,7 +33,7 @@ void setup()
   }
 
   while (!Serial.available()); // wait for a message from Max
-
+  Serial.read();
   if (DEBUG) printImuInfo();
 }
 //----------------------------------------------------------------------------
