@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 64.0, 68.0, 846.0, 681.0 ],
+		"rect" : [ 64.0, 68.0, 567.0, 681.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,42 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 21.120568722486496, 633.522610545158386, 359.203310072422028, 22.0 ],
+					"text" : "0.139648 -0.049683 1.000732 1.464844 -3.051758 -2.868652"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 36.0, 398.166674137115479, 71.0, 22.0 ],
+					"text" : "byte-cast f<"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 28.66668438911438, 36.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 4,
@@ -115,13 +151,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 329.666674137115479, 149.0, 62.0 ],
-					"text" : "0 208 171 190 0 0 62 190 0 88 107 63 0 224 171 63 0 104 63 192 0 224 43 191"
+					"patching_rect" : [ 36.0, 329.666674137115479, 149.0, 49.0 ],
+					"text" : "0 0 15 62 0 128 75 189 0 24 128 63 0 128 187 63 0 80 67 192 0 152 55 192"
 				}
 
 			}
@@ -151,7 +187,7 @@
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -483.333333253860474, -443.333333253860474 ],
+					"offset" : [ -481.39158570766449, -311.294500112533569 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 376.333329081535339, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
@@ -172,7 +208,7 @@
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -483.333333253860474, -443.333333253860474 ],
+					"offset" : [ -481.39158570766449, -312.265373885631561 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 144.5555659532547, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
@@ -193,7 +229,7 @@
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -483.333333253860474, -443.333333253860474 ],
+					"offset" : [ -481.39158570766449, -313.236247658729553 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 260.44444751739502, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
@@ -226,7 +262,7 @@
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -483.333333253860474, -443.333333253860474 ],
+					"offset" : [ -480.420711934566498, -312.265373885631561 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.66668438911438, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
@@ -241,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.5555659532547, 66.471997494964597, 114.0, 37.0 ],
+					"patching_rect" : [ 144.5555659532547, 69.471997494964597, 114.0, 37.0 ],
 					"text" : "#1 numPortSkip \n#2 numArduino"
 				}
 
@@ -253,8 +289,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 28.66668438911438, 77.406779999999998, 108.0, 22.0 ],
-					"text" : "PollForArduino 7 1"
+					"patching_rect" : [ 28.66668438911438, 80.406779999999998, 108.0, 22.0 ],
+					"text" : "PollForArduino 3 1"
 				}
 
 			}
@@ -270,18 +306,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.66668438911438, 38.406779661016941, 32.0, 22.0 ],
-					"text" : "start"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -292,8 +316,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"source" : [ "obj-13", 0 ]
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -327,7 +358,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 1,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
+					"order" : 0,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -402,6 +442,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "byte-cast.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
