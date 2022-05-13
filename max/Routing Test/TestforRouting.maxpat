@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 799.0, 606.0 ],
+		"rect" : [ 64.0, 68.0, 846.0, 681.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,54 +37,91 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"linecount" : 12,
+					"id" : "obj-9",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.499996542930603, 526.666674137115479, 50.0, 169.0 ],
-					"presentation_linecount" : 12,
+					"patching_rect" : [ 268.292966082468297, 535.166674137115479, 149.0, 62.0 ],
 					"text" : "0 208 171 190 0 0 62 190 0 88 107 63 0 224 171 63 0 104 63 192 0 224 43 191"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-32",
+					"id" : "obj-8",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 526.666674137115479, 50.0, 22.0 ],
-					"text" : "2"
+					"patching_rect" : [ 190.162826248861535, 466.666674137115479, 149.0, 62.0 ],
+					"text" : "0 208 171 190 0 0 62 190 0 88 107 63 0 224 171 63 0 104 63 192 0 224 43 191"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
+					"id" : "obj-7",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 526.666674137115479, 50.0, 22.0 ],
-					"text" : "2"
+					"patching_rect" : [ 112.032686415254844, 398.166674137115479, 149.0, 62.0 ],
+					"text" : "0 208 171 190 0 0 62 190 0 88 107 63 0 224 171 63 0 104 63 192 0 224 43 191"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-30",
+					"id" : "obj-6",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 469.339371945534765, 170.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 353.559581297023215, 170.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 237.779790648511607, 170.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.330006556510909, 526.666674137115479, 50.0, 22.0 ],
-					"text" : "2"
+					"patching_rect" : [ 36.0, 329.666674137115479, 149.0, 62.0 ],
+					"text" : "0 208 171 190 0 0 62 190 0 88 107 63 0 224 171 63 0 104 63 192 0 224 43 191"
 				}
 
 			}
@@ -95,7 +132,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 57.32999964237213, 470.669999761581437, 253.0, 22.0 ],
+					"patching_rect" : [ 36.0, 272.669999761581437, 447.0, 22.0 ],
 					"text" : "route Toothbrush HairBrush MouthWash Soap"
 				}
 
@@ -110,14 +147,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-25",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ -483.333333253860474, -443.333333253860474 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.666708588600159, 256.16667366027832, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 376.333329081535339, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
 				}
 
@@ -132,14 +168,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-24",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ -483.333333253860474, -443.333333253860474 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.666697859764099, 256.16667366027832, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 144.5555659532547, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
 				}
 
@@ -154,14 +189,13 @@
 					"enablevscroll" : 0,
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ -483.333333253860474, -443.333333253860474 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 677.666703224182129, 256.16667366027832, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 260.44444751739502, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
 				}
 
@@ -174,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 145.0, 168.0, 24.0, 24.0 ]
+					"patching_rect" : [ 122.0, 170.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -188,60 +222,26 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ -483.333333253860474, -443.333333253860474 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.66668438911438, 195.16667366027832, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 28.66668438911438, 214.16667366027832, 112.33331561088562, 29.666652679443359 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 262.0, 59.0, 20.0 ],
-					"text" : "IMU Data"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 327.5, 261.0, 140.0, 20.0 ],
-					"text" : "Unique Arduino Identifier"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.5, 261.0, 50.0, 22.0 ],
-					"text" : "2"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"bubble" : 1,
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 94.906779999999998, 97.0, 33.0 ],
+					"patching_rect" : [ 144.5555659532547, 66.471997494964597, 114.0, 37.0 ],
 					"text" : "#1 numPortSkip \n#2 numArduino"
 				}
 
@@ -253,19 +253,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 41.5, 100.406779999999998, 108.0, 22.0 ],
+					"patching_rect" : [ 28.66668438911438, 77.406779999999998, 108.0, 22.0 ],
 					"text" : "PollForArduino 7 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-46",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 146.0, 211.0, 20.0 ],
-					"text" : "Output Bang when devices connected"
 				}
 
 			}
@@ -277,7 +266,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.5, 144.0, 24.0, 24.0 ]
+					"patching_rect" : [ 28.66668438911438, 140.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -288,7 +277,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.5, 61.406779661016941, 32.0, 22.0 ],
+					"patching_rect" : [ 28.66668438911438, 38.406779661016941, 32.0, 22.0 ],
 					"text" : "start"
 				}
 
@@ -296,8 +285,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -310,29 +313,50 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-29", 3 ]
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 1 ],
-					"source" : [ "obj-29", 1 ]
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-29", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"source" : [ "obj-29", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -357,18 +381,25 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "ArduinoConnection.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../../Max 8/Library",
+				"name" : "PollForArduino.maxpat",
+				"bootpath" : "~/Documents/GitHub/Installation-05-22/max/Routing Test",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "PollForArduino.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../../Max 8/Library",
+				"name" : "ArduinoConnection.maxpat",
+				"bootpath" : "~/Documents/GitHub/Installation-05-22/max/Routing Test",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
