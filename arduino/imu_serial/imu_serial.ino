@@ -33,7 +33,10 @@ void setup()
   }
 
   while (!Serial.available()); // wait for a message from Max
-  Serial.read();
+  
+  while (Serial.available())
+    Serial.read();
+    
   if (DEBUG) printImuInfo();
 }
 //----------------------------------------------------------------------------
@@ -64,7 +67,7 @@ void loop()
         if (Serial.read() == 255)
           NVIC_SystemReset();
       }
-      
+
       while (Serial.available() == 0)
       {
         if (IMU.accelerationAvailable())
