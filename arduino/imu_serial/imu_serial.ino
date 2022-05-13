@@ -26,15 +26,16 @@ void setup()
 
   Serial.write(Toothbrush);
   
+  
   if (!IMU.begin())
   {
     Serial.println("Failed to initialize IMU!");
     while (1);
   }
 
-  if (DEBUG)  
-    printImuInfo();
-  
+  while (!Serial.available()); // wait for a message from Max
+
+  if (DEBUG) printImuInfo();
 }
 //----------------------------------------------------------------------------
 void loop()
