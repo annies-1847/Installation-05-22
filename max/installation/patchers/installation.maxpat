@@ -45,7 +45,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 702.458175701017353, 61.92934492746997, 84.945946216583252, 19.0 ],
+					"patching_rect" : [ 702.226012661338359, 65.42834801956019, 84.945946216583252, 19.0 ],
 					"text" : "r allDevicesFound"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 586.090789504922213, 61.375946616331817, 84.945946216583252, 19.0 ],
+					"patching_rect" : [ 585.858626465243219, 65.42834801956019, 84.945946216583252, 19.0 ],
 					"text" : "r allDevicesFound"
 				}
 
@@ -71,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.723403308827073, 60.822548305193656, 84.945946216583252, 19.0 ],
+					"patching_rect" : [ 469.491240269148079, 65.42834801956019, 84.945946216583252, 19.0 ],
 					"text" : "r allDevicesFound"
 				}
 
@@ -84,7 +84,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.356017112731934, 60.269149994055503, 84.945946216583252, 19.0 ],
+					"patching_rect" : [ 353.123854073052939, 65.42834801956019, 84.945946216583252, 19.0 ],
 					"text" : "r allDevicesFound"
 				}
 
@@ -1382,14 +1382,15 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-25",
+					"ignoreclick" : 1,
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -481.39158570766449, -311.294500112533569 ],
+					"offset" : [ -486.391585856676102, -316.294500261545181 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 701.022661805152893, 83.59502167983851, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 726.355995138486264, 90.261688346505181, 85.424450848538072, 21.66665244102478 ],
 					"viewvisibility" : 1
 				}
 
@@ -1403,14 +1404,15 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-24",
+					"ignoreclick" : 1,
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -481.39158570766449, -312.265373885631561 ],
+					"offset" : [ -486.724919199943542, -316.598707348108292 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.244898676872253, 83.59502167983851, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 494.259228922235707, 90.261688346505181, 85.424450848538072, 21.66665244102478 ],
 					"viewvisibility" : 1
 				}
 
@@ -1424,14 +1426,15 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-22",
+					"ignoreclick" : 1,
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -481.39158570766449, -313.236247658729553 ],
+					"offset" : [ -488.724919259548187, -315.90291440486908 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 585.133780241012573, 83.59502167983851, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 610.307612030361042, 90.261688346505181, 85.424450848538072, 21.66665244102478 ],
 					"viewvisibility" : 1
 				}
 
@@ -1457,14 +1460,15 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-20",
+					"ignoreclick" : 1,
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ArduinoConnection.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ -480.420711934566498, -312.265373885631561 ],
+					"offset" : [ -487.087378799915314, -315.265373975038528 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.356017112731934, 83.59502167983851, 112.33331561088562, 29.666652679443359 ],
+					"patching_rect" : [ 378.689350446065248, 90.261688346505181, 84.945946216583252, 21.999985784292221 ],
 					"viewvisibility" : 1
 				}
 
